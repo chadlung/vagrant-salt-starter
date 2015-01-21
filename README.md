@@ -17,7 +17,7 @@ script from the Internet, make sure you
 The `saltmaster` will have IP `192.168.37.10` and `minion01` will have IP
 `192.168.37.11`
 
-Once the VMs are both ready go ahead an run the following to verify:
+Once the VMs are both ready you can run the following commands to verify:
 
 **minion01**
 
@@ -47,7 +47,7 @@ You should see output like this:
 2015-01-21 04:25:21,980 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
 ```
 
-Log out of `minion01` and log into the `saltmaster`:
+Logout of `minion01` and log into the `saltmaster`:
 
 **saltmaster**
 
